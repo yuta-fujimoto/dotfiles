@@ -1,0 +1,27 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "ctrl+oem_102",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+oem_102",
+		"command": "workbench.action.terminal.focus",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+f9",
+		"command": "cursorTop",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+f10",
+		"command": "cursorBottom",
+		"when": "textInputFocus"
+	},
+]
